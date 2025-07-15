@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     >
       {/* Header */}
       <div className="flex justify-between items-center p-4 border-b border-white">
-        <h2 className="text-lg font-bold">Menu</h2>
+        
         <button onClick={() => setIsOpen(false)}>
           <FaTimes className="text-xl" />
         </button>
