@@ -27,7 +27,7 @@ const About = () => (
         initial={{ opacity: 0, x: 30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="w-full md:w-1/2 text-center md:text-left space-y-4"
+        className="w-full md:w-1/2 text-center text-justify md:text-left space-y-4"
       >
         <h2 className="text-3xl sm:text-4xl font-extrabold text-primaryPurple">
           About Me
