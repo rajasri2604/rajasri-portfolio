@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <>
       <nav className="fixed w-full bg-primaryPurple text-white z-20 shadow-md">
-        <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3 sm:px-6">
 
           {/* 🍔 Hamburger on left */}
           <div className="md:hidden">
@@ -22,7 +22,7 @@ const Nav = () => {
             <div className="w-10 h-10 flex items-center justify-center bg-pink-300 text-white font-bold rounded-full shadow-md text-lg">
               RK
             </div>
-            <h1 className="text-xl font-bold">Rajasri R K</h1>
+            <h1 className="text-xl font-bold whitespace-nowrap">Rajasri R K</h1>
           </div>
 
           {/* 🔗 Desktop Links */}
